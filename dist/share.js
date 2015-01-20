@@ -1,8 +1,8 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"./js/main.js":[function(require,module,exports){
 var foo = require('./foo.js');
 
-console.log(foo(10));
-},{"./foo.js":"/Users/tannerlangley/Sites/sandbox/browserifyTest/js/foo.js"}],"/Users/tannerlangley/Sites/sandbox/browserifyTest/js/foo.js":[function(require,module,exports){
+console.log(foo(20));
+},{"./foo.js":"/Users/tannerlangley/Sites/sandbox/gulp-example/js/foo.js"}],"/Users/tannerlangley/Sites/sandbox/gulp-example/js/foo.js":[function(require,module,exports){
 var $ = require('jquery-browserify');
 
 module.exports = function (n) {
@@ -12,7 +12,7 @@ module.exports = function (n) {
 }
 
 
-},{"jquery-browserify":"/Users/tannerlangley/Sites/sandbox/browserifyTest/node_modules/jquery-browserify/lib/jquery.js"}],"/Users/tannerlangley/Sites/sandbox/browserifyTest/node_modules/jquery-browserify/lib/jquery.js":[function(require,module,exports){
+},{"jquery-browserify":"/Users/tannerlangley/Sites/sandbox/gulp-example/node_modules/jquery-browserify/lib/jquery.js"}],"/Users/tannerlangley/Sites/sandbox/gulp-example/node_modules/jquery-browserify/lib/jquery.js":[function(require,module,exports){
 // Uses Node, AMD or browser globals to create a module.
 
 // If you want something that will work in other stricter CommonJS environments,
